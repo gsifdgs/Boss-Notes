@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B69D74"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Please Select \nYour Login Type"
+        android:textColor="#8F000000"
+        android:textSize="45sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:background="#B69D74"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="205dp"
+            android:layout_height="275dp"
+            android:background="#041FB9"
+            android:text="Boss"
+            android:textColor="#F59406"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="206dp"
+            android:layout_height="275dp"
+            android:background="#C97C07"
+            android:text="Employee"
+            android:textColor="#041FB9"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_marginTop="60sp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/bnn" />
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9900967F"
+    android:orientation="vertical"
+    tools:context=".Employeeregister">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="379dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="20sp"
+        android:background="#F0FFFFFF"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:ems="10"
+            android:hint="İsim Giriniz"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:ems="10"
+            android:hint="Email Giriniz"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:ems="10"
+            android:hint="Password Giriniz"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:ems="10"
+            android:hint="Numara Giriniz"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editTextBirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:ems="10"
+            android:hint="Doğum Günü Giriniz"
+            android:inputType="date" />
+
+        <RadioGroup
+            android:id="@+id/Radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Erkek" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Kadın" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="20sp"
+        android:background="#2C72A8"
+        android:onClick="kayitol"
+        android:text="Kişi Ekle"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="373dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:background="#2C72A8"
+        android:text="ListView'de göster"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="373dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:background="#2C72A8"
+        android:onClick="ShowBoss"
+        android:text="Text'te göster"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
